@@ -1,0 +1,77 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 1078px;
+    box-sizing: border-box;
+    margin-top: 163.5px;
+    margin-bottom: 127px;
+    .logo {
+        display: flex;
+        flex-direction: column;
+        .logo1 {
+            display: flex;
+            flex-direction: row;
+            .logo1__text {
+                font-family: 'Rubin', sans-serif;
+                font-style: normal;
+                letter-spacing: 1px;
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 29.63px;
+                color: #1f1f1f;
+                margin-left: 10.48px;
+            }        
+            #logo1__img {
+                width: 21.05px;
+                height: 21.05;
+            }
+        }
+        .logo2 {
+            font-family: 'Karla', sans-serif;
+            font-style: normal;
+            letter-spacing: -0.4px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #666666;
+            margin-top: 32px;
+        }
+        .logo3 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 38px;
+            #logo3__1 {
+                margin-right: 18.67px;
+            }
+            #logo3__2 {
+                margin-right: 18.67px;
+            }
+        }
+    }
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap:83px;
+        grid-row-gap: 15px;
+        margin-left: 224px;
+        .menu__item1 {
+            font-family: 'Karla', sans-serif;
+            font-style: normal;
+            letter-spacing: -0.4px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16.37px;
+            color: #666666;
+        }
+        .menu__item2 {
+            text-decoration: none;
+            font-family: 'Karla', sans-serif;
+            font-style: normal;
+            letter-spacing: -0.4px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 40px;
+            color: #1f1f1f;
+        }
+    }
+}

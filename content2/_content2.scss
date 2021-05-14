@@ -1,0 +1,71 @@
+.content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    background: #e3eef8;
+    padding-top: 156px;
+    padding-bottom: 150px;
+    .content2__block1 {
+        .content2__block11 {
+            font-family: 'Karla', sans-serif;
+            letter-spacing: 2.81px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 17.54px;
+            color: #258aff;
+            font-style: normal;            
+        }
+        .content2__block12 {
+            font-family: 'Karla', sans-serif;
+            letter-spacing: 2.53px;
+            font-size: 38px;
+            font-weight: 900;
+            line-height: 56px;
+            color: #1f1f1f;
+            font-style: bold;
+            margin-top: 49px;
+        }
+        .content2__block13 {
+            font-family: 'Karla', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            color: #666666;
+            font-style: normal;
+            margin-top: 16px;
+        }
+        .content2__block14 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 95px;
+            .content2__block14-1 {
+                #block14-1__text1 {
+                   font-family: 'Karla', sans-serif;
+                   font-size: 23px;
+                   font-weight: 700;
+                   line-height: 32px;
+                   color: #000000;
+                   font-style: normal;
+                   margin-top: 32px;
+                   letter-spacing: -1px;
+                }
+                #block14-1__text2 {
+                    font-family: 'Karla', sans-serif;
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    color: #666666;
+                    font-style: normal;
+                    margin-top: 13px;
+                }
+            }
+        }
+    }
+    .content2__block2 {
+        padding: 0;
+        margin-left: 320px;
+    }
+}

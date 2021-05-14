@@ -1,0 +1,13 @@
+.content1 {
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.content1 .content1__image .content1__image1 {
+  border: olive 1px solid;
+}/*# sourceMappingURL=content1.css.map */

@@ -1,0 +1,161 @@
+@mixin block {
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 31px 39px 30px 37px;
+    box-sizing: border-box;
+    .main__block1-1 {
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #1f1f1f;
+    }
+    .main__profile1 {
+        display: flex;
+        flex-direction: row;
+        #main__image {
+            width: 43px;
+            height: 43px;
+            margin: 34px 22px 0px 0px;
+        }
+        #main__link {  
+            display: block;  
+            margin-top: 28px;          
+            #main__name1 {
+                font-family: 'Karla', sans-serif;
+                font-style: normal;
+                font-size: 17px;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: -0.32px;
+                color: #1f1f1f; 
+            }
+            #main__pro1 {
+                font-family: 'Karla', sans-serif;
+                font-style: normal;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #666666; 
+            }
+        }
+    }               
+}
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .test__line {
+        width: 1111px;
+        height: 2px;
+        background: #ffffff;
+        margin-bottom: 157px;
+    }
+    .test__main {
+        width: 1110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .main__content { 
+            margin-right: 65px;
+            #content__1 {
+                font-family: 'Karla', sans-serif;
+                letter-spacing: 2.81px;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 17.54px;
+                color: #258aff;
+                font-style: normal;
+            }
+            #content__2 {
+                font-family: 'Karla', sans-serif;
+                letter-spacing: -2.53px;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 56px;
+                color: #1f1f1f;
+            }
+            #content__3 {
+               font-family: 'Karla', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                color: #666666; 
+            }
+        }
+        .main__block {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows:  1fr 1fr;
+            grid-gap:30px;            
+            .main__block1 {               
+                border-radius: 5px;
+                background: #ffffff;
+                padding: 31px 39px 30px 37px;
+                box-sizing: border-box;
+                .main__block1-1 {
+                    font-family: 'Rubik', sans-serif;
+                    font-style: normal;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    color: #1f1f1f;
+                }
+                .main__profile1 {
+                    display: flex;
+                    flex-direction: row;
+                    #main__image {
+                        width: 43px;
+                        height: 43px;
+                        margin: 34px 22px 0px 0px;
+                    }
+                    #main__link {  
+                        display: block;  
+                        margin-top: 28px;          
+                        #main__name1 {
+                            font-family: 'Karla', sans-serif;
+                            font-style: normal;
+                            font-size: 17px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            letter-spacing: -0.32px;
+                            color: #1f1f1f; 
+                        }
+                        #main__pro1 {
+                            font-family: 'Karla', sans-serif;
+                            font-style: normal;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 28px;
+                            letter-spacing: -0.4px;
+                            color: #666666; 
+                        }
+                    }    
+                }               
+            }
+            .main__block2 {
+                @include block;
+            }
+            .main__block3 {
+                @include block;               
+            }
+            .main__block4 {
+                @include block;                
+            }
+        }
+    }
+    .clients {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1110px;
+        margin-top: 122px;
+        margin-bottom: 131.5px;
+        box-sizing: border-box;
+    }  
+}

@@ -1,0 +1,280 @@
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(price.png);
+    width: 1920px;
+    height: 1106px;
+    .price__header {
+        font-family: 'Karla', sans-serif;
+        font-style: normal;
+        letter-spacing: 2.81px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17,54px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 137.5px;
+    }
+    .price__text {
+        font-family: 'Karla', sans-serif;
+        font-style: normal;
+        letter-spacing: -2.53px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 49px;
+    }
+    .price__main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 93px;
+        .price1 {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 350px;
+            background: #2B405A;
+            border-radius: 6px;
+            padding: 29px 77px 29px 45px;
+            margin-right: 30px;
+            #text1 {
+                font-family: 'Karla', sans-serif;
+                font-style: normal;
+                letter-spacing: 0.43px;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 32px;
+                color: #e5e5e5;
+            }
+            .text2 {
+                display: flex;
+                flex-direction: row;
+                #text2-1 {
+                    margin-top: 10px;
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    letter-spacing: -1.2px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 35.07px;
+                    color: #ffffff;
+                    margin-right: 4px;
+                }
+                #text2-2 {
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    letter-spacing: -2px;
+                    font-size: 50px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    color: #ffffff;
+                }
+                #text2-3 {
+                    display: flex;
+                    align-self: flex-end;
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    letter-spacing: 0.68px;
+                    font-size: 17px;
+                    font-weight: 700;
+                    line-height: 19.87px;
+                    color: #ffffff;
+                    margin-bottom: 9px;
+                    margin-left: 4px;
+
+                }
+            }
+            #text3 {
+                font-family: 'Karla', sans-serif;
+                font-style: normal;
+                letter-spacing: -0.4px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 23px;
+                color: #e5e5e5;
+            }
+            #text4 {
+                margin: 26px 0px 7px 0px;
+            }
+            #text5 {
+                margin-bottom: 7px;
+            }
+            #text6 {
+                margin-bottom: 7px;
+            }
+            #text7 {
+                margin-bottom: 39px;
+            }
+            #price-button {
+                text-decoration: none;
+                #price-button1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    width: 190px;
+                    height: 50px;
+                    box-sizing: border-box;
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    font-size: 18px;
+                    font-weight: 700;
+                    background: #258aff;
+                    border: none;
+                    border-radius: 5px;
+                    color: #ffffff;
+                    margin-bottom: 5px;
+                    cursor: pointer;
+                }
+            }
+            #text8 {
+                font-family: 'Karla', sans-serif;
+                font-style: normal;
+                letter-spacing: -0.4px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 23px;
+                color: #878b90;
+            }
+        }
+        .price2 {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 350px;
+            background: #ffffff;
+            border-radius: 6px;
+            padding: 29px 32px 29px 45px;
+            .text21 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                #text21__1 {
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    letter-spacing: 0.43px;
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    color: #666666;                    
+                }
+                #text21__button {
+                    text-decoration: none;
+                    #text21__button1 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        width: 83px;
+                        height: 26px;
+                        box-sizing: border-box;
+                        font-family: 'Karla', sans-serif;
+                        font-style: normal;
+                        font-size: 12px;
+                        font-weight: 700;
+                        background: #4eab08;
+                        border: none;
+                        border-radius: 13px;
+                        color: #ffffff;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .tt22 {
+                display: flex;
+                flex-direction: row;
+                #text22-1 {
+                    margin-top: 10px;
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    letter-spacing: -1.2px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 35.07px;
+                    color: #1f1f1f;
+                    margin-right: 4px;
+                }
+                #text22-2 {
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    letter-spacing: -2px;
+                    font-size: 50px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    color: #1f1f1f;
+
+                }
+                #text22-3 {
+                    display: flex;
+                    align-self: flex-end;
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    letter-spacing: 0.68px;
+                    font-size: 17px;
+                    font-weight: 700;
+                    line-height: 19.87px;
+                    color: #1f1f1f;
+                    margin-bottom: 9px;
+                    margin-left: 4px;
+
+                }
+            }
+            #text23 {
+                font-family: 'Karla', sans-serif;
+                font-style: normal;
+                letter-spacing: -0.4px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 23px;
+                color: #666666;
+            }
+            #text24 {
+                margin: 26px 0px 7px 0px;
+            }
+            #text25 {
+                margin-bottom: 7px;
+            }
+            #text26 {
+                margin-bottom: 7px;
+            }
+            #text27 {
+                margin-bottom: 39px;
+            }
+            #price-button2 {
+                text-decoration: none;
+                #price-button2-1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    width: 190px;
+                    height: 50px;
+                    box-sizing: border-box;
+                    font-family: 'Karla', sans-serif;
+                    font-style: normal;
+                    font-size: 18px;
+                    font-weight: 700;
+                    background: #fc593b;
+                    border: none;
+                    border-radius: 5px;
+                    color: #ffffff;
+                    margin-bottom: 5px;
+                    cursor: pointer;
+                }
+            }
+            #text28 {
+                font-family: 'Karla', sans-serif;
+                font-style: normal;
+                letter-spacing: -0.4px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 23px;
+                color: #666666;
+            }
+        }       
+    }
+}
